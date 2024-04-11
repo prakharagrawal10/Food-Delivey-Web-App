@@ -1,0 +1,61 @@
+/* LoginPage.css */
+
+/* Import fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.login-heading {
+  color: #f1356d;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  background-color: #eedada;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.login-form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form-button:hover {
+  background-color: #d11f4e;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
