@@ -2,6 +2,7 @@ import Navbar from './Navbar.js';
 import Home from './Home.js';
 import AccountPage from './AccountPage';
 import CartPage from './CartPage';
+import Footer from './Footer.js';
 import LoginPage from './LoginPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/login" element={<LoginPage />} />   
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );
