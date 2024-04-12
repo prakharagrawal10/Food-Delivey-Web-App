@@ -13,8 +13,8 @@ function App() {
         <div className='content'>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/account" component={AccountPage} />
-            <Route exact path="/cart" component={CartPage} />
+            <Route exact path="/account" element={<AccountPage />} />
+            <Route exact path="/cart" element={<CartPage />} />
             <Route exact path="/login" element={<LoginPage />} />   
           </Routes>
         </div>

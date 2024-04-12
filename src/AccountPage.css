@@ -1,0 +1,81 @@
+/* AccountPage.css */
+/* AccountPage.css */
+
+.account-page {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.profile-information {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-information h2 {
+    color: #333;
+}
+
+.profile-information p {
+    margin-bottom: 10px;
+}
+
+/* Base styles */
+.account-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .account-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-info h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+.order-history {
+    margin-top: 40px;
+}
+
+.order {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.order p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.order p:last-child {
+    margin-bottom: 0;
+}
