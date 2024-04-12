@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { assets } from "../../assets/assets";
+import { assets } from "C:/Users/prakh/Desktop/Coding/Food Delivery Website/dashify/src/assets/assets.js";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
